@@ -1,0 +1,37 @@
+{
+  "name": "gmail-autoresponder",
+  "version": "1.0.0",
+  "description": "This application auto replies on your behalf with a custom message on Gmail while you are on vacation.",
+  "main": "index.js",
+  "scripts": {
+    "autoreply": "tsc && node dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.8.1",
+    "@google-cloud/local-auth": "2.1.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.7.2",
+    "bullmq": "^5.7.12",
+    "cheerio": "^1.0.0-rc.12",
+    "chrome-launcher": "^1.1.1",
+    "dotenv": "^16.4.5",
+    "googleapis": "^105.0.0",
+    "html-to-text": "^9.0.5",
+    "ioredis": "^5.4.1",
+    "isomorphic-fetch": "^3.0.0",
+    "open": "^10.1.0",
+    "openai": "^4.47.1",
+    "typescript": "^5.4.5",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^2.40.0",
+    "@types/html-to-text": "^9.0.4",
+    "google-auth-library": "^9.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
